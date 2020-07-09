@@ -59,6 +59,7 @@ nav {
 .button-projects:hover {
     background-color:orange;
     color:black;
+    font-family: 'Dancing Script', cursive;
     border-radius:30%;
 }
 .myname {
@@ -70,10 +71,22 @@ nav {
     font-family: 'Great Vibes', cursive;
     font-size:1.7rem;
 }
+.img-projects {
+    display:flex;
+    
+    width:100%
+}
 .img-projects div {
     display:flex;
+    flex-direction:column;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    width:80%;
+    
+}
+.img-projects img {
+    display:flex;
+   width:20%;
+    
 }
 h3 {
     font-family: 'Calligraffitti', cursive;
@@ -88,4 +101,19 @@ h3 {
 }
 .footer-back h2 {
     font-family: 'Calligraffitti', cursive;
+}
+.button-contact {
+    width:50%;
+    border:2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.1rem;
+    background-color:teal;
+    color:yellow;
+}
+.button-contact:hover {
+    background-color:orange;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    border-radius:30%;
 }
