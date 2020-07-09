@@ -1,1 +1,91 @@
 /* Add CSS styling here */
+.header-back {
+    background-color:gray;
+    padding:2%;
+}
+#name {
+    color:purple;
+    display:flex;
+    font-family: 'Merienda One', cursive;
+    font-size:2.5rem; 
+}
+nav {
+    display:flex;
+    justify-content:space-between;
+    width:25%;
+}
+.nav-bar nav a {
+    border:2px solid black;
+    color:black;
+    background-color:lightblue;
+    text-decoration:none;
+    width:50%;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.2rem;
+}
+.nav-bar nav a:hover {
+    background-color:pink;
+    color:purple;
+    font-family: 'Dancing Script', cursive;
+    border-radius:15%;
+}
+#container {
+    display:flex;
+}
+#container img {
+    display:flex;
+    width:100%;
+    height:80%;
+    padding:4%;
+}
+.sidebar {
+    display:flex;
+    flex-direction:column;
+    align-items:space-around;
+    padding: 8%;
+    width:40%;
+}
+.button-projects {
+    width:18%;
+    border:2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.1rem;
+    background-color:teal;
+    color:yellow;
+}
+.button-projects:hover {
+    background-color:orange;
+    color:black;
+    border-radius:30%;
+}
+.myname {
+    display:flex;
+    font-family: 'Merienda One', cursive;
+    font-size:1.6rem;
+}
+.sidebar p{
+    font-family: 'Great Vibes', cursive;
+    font-size:1.7rem;
+}
+.img-projects div {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+h3 {
+    font-family: 'Calligraffitti', cursive;
+    display:flex;
+    align-items:flex-end;
+}
+.footer-back {
+    background-color:gray;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.footer-back h2 {
+    font-family: 'Calligraffitti', cursive;
+}
