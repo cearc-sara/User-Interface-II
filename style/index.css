@@ -2,7 +2,6 @@
 
 /* Add CSS styling here */
 * {
-    /* border:1px solid black; */
     max-width:100%;
     
 }
@@ -10,6 +9,7 @@ body {
     width:100%;
     background-color:lightgrey;
 }
+/*heading*/
 .header-back {
     background-color:gray;
     padding:2%;
@@ -42,6 +42,7 @@ nav {
     font-family: 'Dancing Script', cursive;
     border-radius:15%;
 }
+/*body*/
 #container {
     display:flex;
 }
@@ -84,6 +85,17 @@ nav {
     font-family: 'Great Vibes', cursive;
     font-size:1.7rem;
 }
+.about-page div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0 4%;
+}
+.about-page p {
+    font-family: 'Great Vibes', cursive;
+    font-size:2rem;
+}
+/*images*/
  .img-projects {
     display:flex;
      flex-wrap:wrap;
@@ -106,7 +118,7 @@ nav {
     text-align:center;
     margin:0 auto;
 }
-
+/*footer*/
 .footer-back {
     background-color:gray;
     display:flex;
