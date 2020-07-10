@@ -1,10 +1,14 @@
+
+
 /* Add CSS styling here */
 * {
-    border:1px solid black;
+    /* border:1px solid black; */
     max-width:100%;
+    
 }
 body {
     width:100%;
+    background-color:lightgrey;
 }
 .header-back {
     background-color:gray;
@@ -67,12 +71,14 @@ nav {
     background-color:orange;
     color:black;
     font-family: 'Dancing Script', cursive;
-    border-radius:30%;
+    border-radius:15%;
+    font-size:1.3rem;
 }
 .myname {
     display:flex;
     font-family: 'Merienda One', cursive;
     font-size:1.6rem;
+    color:darkcyan;
 }
 .sidebar p{
     font-family: 'Great Vibes', cursive;
@@ -86,7 +92,7 @@ nav {
 }
 
 .img-projects div {
-    width:20%;
+    width:23%;
     max-height:25%;
     margin-bottom:2%;
 }
@@ -116,12 +122,13 @@ nav {
     font-family: 'Shadows Into Light', cursive;
     font-weight:bold;
     font-size:1.1rem;
-    background-color:teal;
-    color:yellow;
+    background-color:lightcoral;
+    color:darkorchid;
 }
 .button-contact:hover {
-    background-color:orange;
-    color:black;
+    background-color:darkmagenta;
+    color:lightseagreen;
     font-family: 'Dancing Script', cursive;
-    border-radius:30%;
+    border-radius:15%;
+    font-size:1.3rem;
 }
