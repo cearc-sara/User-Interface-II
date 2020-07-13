@@ -80,7 +80,7 @@ nav {
 .myname {
     display:flex;
     font-family: 'Merienda One', cursive;
-    font-size:2.4rem;
+    font-size:3rem;
     color:darkcyan;
     width:100%;
 }
@@ -181,7 +181,7 @@ nav {
         flex-direction:column;
     }
     .myname{
-       margin:0 60%;
+       margin:0 50%;
     }
     .button-projects {
         margin:6% 45%;
@@ -204,8 +204,8 @@ nav {
         border:1px solid black;
         margin:2% 8%;
     }
-    .social {
+    .social a{
         display:flex;
-        /* margin:10%; */
+        text-decoration:none;
     }
 }
