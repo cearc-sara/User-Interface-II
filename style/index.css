@@ -1,14 +1,16 @@
 
 
 /* Add CSS styling here */
-* {
-    max-width:100%;
-    
-}
+html{
+    font-size:62.5%;
+  }
+
 body {
-    width:100%;
+    max-width:100%;
     background-color:lightgrey;
 }
+
+
 /*heading*/
 .header-back {
     background-color:gray;
@@ -18,7 +20,7 @@ body {
     color:purple;
     display:flex;
     font-family: 'Merienda One', cursive;
-    font-size:2.5rem; 
+    font-size:4rem; 
 }
 nav {
     display:flex;
@@ -34,13 +36,13 @@ nav {
     text-align:center;
     font-family: 'Shadows Into Light', cursive;
     font-weight:bold;
-    font-size:1.2rem;
+    font-size:1.9rem;
 }
 .nav-bar nav a:hover {
     background-color:pink;
     color:purple;
     font-family: 'Dancing Script', cursive;
-    border-radius:15%;
+    border-radius:10px;
 }
 /*body*/
 #container {
@@ -64,7 +66,7 @@ nav {
     border:2px solid black;
     font-family: 'Shadows Into Light', cursive;
     font-weight:bold;
-    font-size:1.1rem;
+    font-size:1.9rem;
     background-color:teal;
     color:yellow;
 }
@@ -72,18 +74,24 @@ nav {
     background-color:orange;
     color:black;
     font-family: 'Dancing Script', cursive;
-    border-radius:15%;
-    font-size:1.3rem;
+    border-radius:10px;
+    font-size:1.9rem;
 }
 .myname {
     display:flex;
     font-family: 'Merienda One', cursive;
-    font-size:1.6rem;
+    font-size:2.4rem;
     color:darkcyan;
 }
 .sidebar p{
     font-family: 'Great Vibes', cursive;
-    font-size:1.7rem;
+    font-size:3rem;
+}
+/*about page body*/
+.about-page h2 {
+    font-size:4rem;
+    font-family: 'Calligraffitti', cursive;
+    margin:2% 6%;
 }
 .about-page div {
     display:flex;
@@ -93,14 +101,14 @@ nav {
 }
 .about-page p {
     font-family: 'Great Vibes', cursive;
-    font-size:2rem;
+    font-size:3rem;
 }
-/*images*/
+/*images main page*/
  .img-projects {
     display:flex;
      flex-wrap:wrap;
     justify-content:space-around;
-   /* justify-content:center;*/
+   
 }
 
 .img-projects div {
@@ -117,6 +125,8 @@ nav {
     width:30%;
     text-align:center;
     margin:0 auto;
+    font-family: 'Calligraffitti', cursive;
+    font-size:2rem;
 }
 /*footer*/
 .footer-back {
@@ -127,13 +137,14 @@ nav {
 }
 .footer-back h2 {
     font-family: 'Calligraffitti', cursive;
+    font-size:2.5rem;
 }
 .button-contact {
     width:100%;
     border:2px solid black;
     font-family: 'Shadows Into Light', cursive;
     font-weight:bold;
-    font-size:1.1rem;
+    font-size:1.9rem;
     background-color:lightcoral;
     color:darkorchid;
 }
@@ -141,14 +152,22 @@ nav {
     background-color:darkmagenta;
     color:lightseagreen;
     font-family: 'Dancing Script', cursive;
-    border-radius:15%;
-    font-size:1.3rem;
+    border-radius:10px;
+    font-size:2rem;
 }
 .social {
     padding: 4%;
-    font-size: 3rem;
+    font-size: 4rem;
     width: 50%;
     text-align: center;
     text-decoration: none;
 }
+/*media tags*/
+@media (max-width:800px){
+    body {
+        
+    }
+}
+@media (max-width:500px){
 
+}
