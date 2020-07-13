@@ -50,16 +50,16 @@ nav {
 }
 #container img{
     display:flex;
-    width:93%;
+    width:100%;
     height:80%;
     padding:4%;
 }
 .sidebar {
     display:flex;
     flex-direction:column;
-    align-items:space-around;
-    padding: 8%;
-    width:40%;
+    padding: 6%;
+    width:60%;
+    margin:0 6%;
 }
 .button-projects {
     width:18%;
@@ -156,15 +156,56 @@ nav {
     border-radius:10px;
     font-size:2rem;
 }
+.social {
+    width:100%;
+}
 .social a{
     padding: 4%;
     font-size: 4rem;
-    width: 100%;
-    margin:0 15%;
+    
 }
 /*media tags*/
 @media (max-width:800px){
+    nav{
+        display:flex;
+        align-items:center;
+        width:50%;
+    }
+    #container {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    #container img {
+        max-height:60vh;
+        width:90%;
+        
+    }
     
+     .button-projects {
+         width:100%;
+     }
+     .sidebar p{
+         width:100%;
+     }
+     .img-projects {
+        display:flex;
+        flex-wrap:wrap;
+       flex-direction:column;
+       max-height:140vh;
+       align-items:center;
+       
+      
+    }
+    .img-projects div {
+        justify-content:space-around;
+    }
+    .img-projects div img {
+        width:150%;
+        max-height:20vh;
+        border:1px solid black;
+        margin:2% auto;
+    }
 }
 @media (max-width:500px){
     #name{
@@ -187,6 +228,9 @@ nav {
         margin:6% 45%;
         width:100%;
     }
+    .sidebar{
+        width:100%;
+    }
     .sidebar p{
         width:200%;
         margin:6% 10%;
@@ -204,8 +248,9 @@ nav {
         border:1px solid black;
         margin:2% 8%;
     }
-    .social a{
+    .social {
         display:flex;
+        flex-direction:row;
         text-decoration:none;
     }
 }
