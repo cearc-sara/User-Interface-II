@@ -48,9 +48,9 @@ nav {
 #container {
     display:flex;
 }
-#container img {
+#container img{
     display:flex;
-    width:100%;
+    width:93%;
     height:80%;
     padding:4%;
 }
@@ -82,6 +82,7 @@ nav {
     font-family: 'Merienda One', cursive;
     font-size:2.4rem;
     color:darkcyan;
+    width:100%;
 }
 .sidebar p{
     font-family: 'Great Vibes', cursive;
@@ -155,19 +156,56 @@ nav {
     border-radius:10px;
     font-size:2rem;
 }
-.social {
+.social a{
     padding: 4%;
     font-size: 4rem;
-    width: 50%;
-    text-align: center;
-    text-decoration: none;
+    width: 100%;
+    margin:0 15%;
 }
 /*media tags*/
 @media (max-width:800px){
-    body {
-        
-    }
+    
 }
 @media (max-width:500px){
-
+    #name{
+        justify-content:center;
+    }
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    #container {
+        display:flex;
+        flex-direction:column;
+    }
+    .myname{
+       margin:0 60%;
+    }
+    .button-projects {
+        margin:6% 45%;
+        width:100%;
+    }
+    .sidebar p{
+        width:200%;
+        margin:6% 10%;
+    }
+    .img-projects {
+        display:flex;
+        flex-wrap:wrap;
+       flex-direction:column;
+       max-height:125vh;
+       
+    }
+    .img-projects div img {
+        width:200%;
+        max-height:20vh;
+        border:1px solid black;
+        margin:2% 8%;
+    }
+    .social {
+        display:flex;
+        /* margin:10%; */
+    }
 }
