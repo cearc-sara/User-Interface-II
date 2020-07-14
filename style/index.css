@@ -1,1 +1,245 @@
+
+
 /* Add CSS styling here */
+html{
+    font-size:62.5%;
+  }
+
+body {
+    max-width:100%;
+    background-color:lightgrey;
+}
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+/*heading*/
+.header-back {
+    background-color:gray;
+    padding:2%;
+}
+#name {
+    color:purple;
+    display:flex;
+    font-family: 'Merienda One', cursive;
+    font-size:4rem; 
+}
+nav {
+    display:flex;
+    justify-content:space-between;
+    width:25%;
+}
+.nav-bar nav a {
+    border:2px solid black;
+    color:black;
+    background-color:lightblue;
+    text-decoration:none;
+    width:50%;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.9rem;
+}
+.nav-bar nav a:hover {
+    background-color:pink;
+    color:purple;
+    font-family: 'Dancing Script', cursive;
+    border-radius:10px;
+}
+/*body*/
+#container {
+    display:flex;
+}
+#container img{
+    display:flex;
+    width:100%;
+    height:80%;
+    padding:4%;
+}
+.sidebar {
+    display:flex;
+    flex-direction:column;
+    padding: 6%;
+    width:60%;
+    margin:0 6%;
+}
+.button-projects {
+    width:18%;
+    border:2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.9rem;
+    background-color:teal;
+    color:yellow;
+}
+.button-projects:hover {
+    background-color:orange;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    border-radius:10px;
+    font-size:1.9rem;
+}
+.myname {
+    display:flex;
+    font-family: 'Merienda One', cursive;
+    font-size:3rem;
+    color:darkcyan;
+    width:100%;
+}
+.sidebar p{
+    font-family: 'Great Vibes', cursive;
+    font-size:3rem;
+}
+/*about page body*/
+.about-page h2 {
+    font-size:4rem;
+    font-family: 'Calligraffitti', cursive;
+    margin:2% 6%;
+}
+.about-page div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0 4%;
+}
+.about-page p {
+    font-family: 'Great Vibes', cursive;
+    font-size:3rem;
+}
+/*images main page*/
+ .img-projects {
+    display:flex;
+     flex-wrap:wrap;
+    justify-content:space-around;
+   
+}
+
+.img-projects div {
+    width:23%;
+    /* max-height:25%;
+    margin-bottom:2%; */
+}
+.img-projects div img {
+    /* width:100%;
+    max-height:25vh; */
+    border:1px solid black;
+}
+.img-projects h3 {
+   
+    text-align:center;
+    margin:0 auto;
+    font-family: 'Calligraffitti', cursive;
+    font-size:2rem;
+}
+/*footer*/
+.footer-back {
+    background-color:gray;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.footer-back h2 {
+    font-family: 'Calligraffitti', cursive;
+    font-size:2.5rem;
+}
+.button-contact {
+    width:100%;
+    border:2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+    font-size:1.9rem;
+    background-color:lightcoral;
+    color:darkorchid;
+}
+.button-contact:hover {
+    background-color:darkmagenta;
+    color:lightseagreen;
+    font-family: 'Dancing Script', cursive;
+    border-radius:10px;
+    font-size:2rem;
+}
+.social {
+    width:100%;
+}
+.social a{
+    padding: 4%;
+    font-size: 4rem;
+    
+}
+/*media tags*/
+@media (max-width:800px){
+    nav{
+        display:flex;
+        align-items:center;
+        width:50%;
+    }
+    #container {
+       
+        flex-direction:column;
+        align-items:center;
+    }
+   
+   
+    
+     .button-projects {
+         width:100%;
+     }
+     .sidebar p{
+         width:100%;
+     }
+   
+    .img-projects div {
+        width:40%;
+    }
+    .img-projects div img {
+        /* width:150%;
+        max-height:20vh; */
+        border:1px solid black;
+       
+    }
+}
+@media (max-width:500px){
+    #name{
+        justify-content:center;
+    }
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    #container {
+        
+        flex-direction:column;
+        
+    }
+    .myname{
+       margin:0 50%;
+    }
+    .button-projects {
+        width:100%;
+        margin:6% 45%;
+    }
+    .sidebar{
+        width:100%;
+    }
+    .sidebar p{
+        
+        margin:6% 10%;
+        
+    }
+   
+    .img-projects div img {
+        /* width:200%; 
+        max-height:20vh; */
+        border:1px solid black;
+        margin:2% 8%;
+    }
+    .social {
+        display:flex;
+        flex-direction:row;
+        text-decoration:none;
+    }
+}
